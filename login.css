@@ -1,0 +1,95 @@
+body,.message,.form,form {
+  margin-top: 5px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  height: 40%;
+  background: url(mieux-vendre-vetement-vinted.png) center/cover;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+.Boxbox {
+  width: 700px;
+  height: 600px;
+  margin: auto;
+  background:   rgb(37, 21, 97);
+  position: relative;
+  display: grid;
+  grid-template: 100% / 5;
+  box-shadow: 2px 2px 10px 0 rgba(#333, 0.2);
+  border-radius: 20px 20px 20px 20px;
+}
+
+
+.row{
+    color: rgba(255, 255, 255, 0) ;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+.form {
+  width: 100%;
+}
+
+form {
+  width: 70%;
+  font-size: 20px;
+  
+  > * {
+    margin: 10px;
+  }
+  input {
+    height: 70px;
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid  #25145F;
+    font-size: 17px;
+    font-weight: 300;
+    color: #000000;
+    letter-spacing: 0.11em;
+    border-radius: 20px;
+  }
+}
+
+.button {
+  width: 75%;
+  height: 50px;
+  border: 0;
+  outline: 0;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  position: relative;
+  z-index: 3;
+  background:  #000000;;
+  font-family:sans-serif;
+  cursor: pointer;
+  border-radius: 20px 20px 20px 20px;
+}
+
+h1{
+    margin-top: 2%;
+    font-size: 65px;
+    font-family: serif;
+    color: #000000;
+}
+
+
+h6{
+    font-family: 'Kenia', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    color: #000000;
+    margin-left: 5%;
+}
+
+.form--heading{
+  font-family: 'Kenia', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 45px;
+    color:#000000 ;
+}

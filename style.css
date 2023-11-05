@@ -1,0 +1,166 @@
+/* Importations  */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@700&display=swap');
+
+
+/* Variables couleurs */
+:root{
+    --purple: #25145F;
+    --grey: #252525;
+    --yellow: #71721c;
+}
+
+* {
+background: var(--purple);
+}
+
+#menu_checkbox {
+display: none;
+}
+
+body{
+background: var(--purple);
+}
+
+.navbar{
+background: var(--grey);
+display: block;
+}
+
+.research{
+display: flex;
+margin: 15px;
+}
+
+.search-fonction {
+background: rgb(60, 63, 63);
+}
+
+.search-button{
+border-radius: 15%;
+}
+
+.container{
+background: var(--grey);
+display: inline-block;
+}
+
+.navbar-brand{
+width: 60px;
+height: 70px;
+margin-bottom: 5px;
+border-radius: 50%;
+display: flex;
+background: var(--grey);
+}
+
+.navbar-brand:hover{
+scale: 1.25;
+animation: scale1;
+animation-duration: 0.9s;
+display: block;
+}
+
+.collapse, .navbar-collapse{
+background: var(--grey);
+display: block;
+}
+
+.nav-item, .fa-solid {
+background: var(--grey);
+text-align: center;
+margin-top: auto;
+margin-left: auto;
+}
+
+.navbar-login{
+border-radius: 15%;
+}
+
+.fa-sign-in{
+color: rgb(255, 255, 255);
+background-color: rgb(31, 160, 31);
+}
+
+.fa-magnifying-glass{
+background-color: var(--purple);
+}
+
+
+/* /////////////////////////////////////////////////////////Body/////////////////////////////////////////////// */
+.first div{
+width: 100%;
+overflow: hidden;
+position: static;
+}
+
+.start-img{
+height: auto;
+position: absolute;
+width: 100%;
+}    
+
+.box1{
+background-color: rgb(255, 255, 255);
+display: block;
+text-align: center;
+overflow: hidden;
+margin-top: 40%;
+max-height: 60vh;
+min-width: 15vh;
+}
+    
+h4{
+font-size: 66px;
+background-color: rgb(255, 255, 255);
+font-family: 'Oswald', sans-serif;
+text-align: center;
+border: 3px solid var(--purple);
+}
+
+.buy-button{
+background-color: var(--purple);
+border-radius: 4px;
+text-decoration: underline;
+text-align: center;
+overflow: auto;
+font-family: 'Playpen Sans', cursive;
+}
+
+.btn-buy{
+overflow: hidden;
+font-style: italic;
+width: 100%;
+text-decoration: underline;
+-webkit-text-fill-color: rgb(252, 252, 252);
+}
+
+.buy-now{
+background-color: var(--purple);
+}
+
+.text1{
+font-style: italic;
+background-color: rgb(255, 255, 255);
+text-align: center;
+font-size: 13px;
+overflow: auto;
+-webkit-text-fill-color: rgb(79, 85, 85);
+border: 3px solid var(--purple);
+}
+
+/* ///////// */
+
+.footer-clean{
+background: #252525;
+}
+
+/* KEYFRAMES */
+@keyframes scale1 {
+    0%{scale: 1;}
+
+    50%{scale: 0.75;}
+
+    99%{scale: 1.25;}
+}
